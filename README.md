@@ -3,6 +3,10 @@ Scraper that collects products from Nivea main product page.
 
 Spider uses pagnation in odred to get all 475 items.
 
+It isn't common practice to run scrapy in notebook, but this repo uses notebook as you can see. 
+
+Also if you encounter errors like "ReactorNotRestartable " on second run of the cell, you might need to restart Kernel.
+
 Data needed to be extracted:
 
 - name of product
